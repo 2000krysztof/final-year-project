@@ -58,6 +58,32 @@
   }
 }
 
+#links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.link-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.link-grid a {
+  padding: 10px 14px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.link-grid a:hover {
+  background: #333;
+  transform: translateY(-2px);
+}
+
 #next-steps {
   display: flex;
   border-top: 1px solid var(--border);

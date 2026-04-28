@@ -13,7 +13,23 @@ function App() {
           <img src={photo} className="photo" alt="Photo of me"  />
       </section>
 
+	  <section id="links">
+		  <h3>Source Code</h3>
 
+		  <div className="link-grid">
+			  <a href="https://github.com/2000krysztof/FinalYearProjectFacialInterface" target="_blank">
+				C++ Facial Interface
+			  </a>
+
+			  <a href="https://github.com/2000krysztof/fyp-backend" target="_blank">
+				Bun Backend
+			  </a>
+
+			  <a href="https://github.com/2000krysztof/fypAudioEmbeddingModel" target="_blank">
+				Python ML Pipeline
+			  </a>
+		  </div>
+	  </section>
       <section id="next-steps">
         <div id="description">
           <h2>Description</h2>
@@ -37,6 +53,7 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
+
     </>
   )
 }
