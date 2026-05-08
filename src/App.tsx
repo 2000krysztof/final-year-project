@@ -1,6 +1,7 @@
 //import { useState } from 'react'
 import photo from './assets/photo.jpg'
 import diagram from './assets/diagram.png'
+import poster from './assets/poster.png'
 import './App.css'
 
 function App() {
@@ -49,10 +50,13 @@ function App() {
 		<h2>Diagram</h2>
           <img src={diagram} alt="Diagram of architecture"/>
 		</div>
+
+		
       </section>
 
       <div className="ticks"></div>
       <section id="spacer"></section>
+		<img src ={poster} alt="Poster"/>
 
     </>
   )
