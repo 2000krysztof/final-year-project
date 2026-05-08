@@ -127,6 +127,12 @@
 	}
 }
 
+.poster img {
+  border: 1px solid #333;
+  max-width: 60%;
+  height: auto;
+}
+
 #side-ul ul {
   list-style: none;
   padding: 0;

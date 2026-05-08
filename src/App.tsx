@@ -56,7 +56,9 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
+	  <div className="poster">
 		<img src ={poster} alt="Poster"/>
+	  </div>
 
     </>
   )
